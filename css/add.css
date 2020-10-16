@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family: serif;
+	margin: 0 auto;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+h2{
+	font-size: 30px;
+	color: #708090;
+	text-align: center;
+	font-weight: bold;
+}
+
+form table{
+	margin:30px auto ;
+	width: 580px;
+}
+table th{
+	text-align: right;
+}
+table input{
+	width: 400px;
+	font-size: 16px;
+	margin: 5px 0 5px 20px;
+}
+.radio{
+	width: 20px;
+
+}
+#submit{
+	width: 80px;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px 20px;
+	margin: 50px auto;
+	background-color: #e6cfe6;
+}
+.new{
+	margin: 20px auto ;
+	text-align: center;
+	font-size: 14px;
+}
+.new span{
+	color: black;
+	font-weight: bold;
+}
+img.chart{
+	margin: 20px;
+	height: 700px;
+	width: 500px;
+}
+.popup{
+	display: none;
+}
+
+.show{
+	margin: 0 auto;
+}
+.show li{
+	float: left;
+	margin: 35px;
+}
+.show #close{
+	clear: both;
+}
+
+#close{
+	text-align: center;
+	font-weight: bold;
+}
+p{
+	text-align: center;
+	margin: 30px auto;
+}
+a{
+	color: black;
+}
+.error{
+	color: red;
+	text-align: center;
+}
+#confirm{
+	text-align: center;
+	margin-top:  30px;
+}
