@@ -54,7 +54,7 @@ $(function(){
 <p>ご登録ありがとうございます。<br>
 ショッピングをお楽しみください。</p>
 
-<p><a href="index.php">rログイン画面へ</a></p>
+<p><a href="index.php">ログイン画面へ</a></p>
 
   <?php
    require("footer.php");
